@@ -117,6 +117,22 @@ a.pink:hover, a.pink:active {
 	-ms-transition: color 500ms ease-out;
 	transition: color 500ms ease-out;
 }
+.purple, a.purple:link, a.purple:visited {
+	color: #B76AFF;
+	-webkit-transition: color 500ms ease-in;
+	-moz-transition: color 500ms ease-in;
+	-o-transition: color 500ms ease-in;
+	-ms-transition: color 500ms ease-in;
+	transition: color 500ms ease-in;
+}
+a.purple:hover, a.purple:active {
+	color: #A1B2B3;
+	-webkit-transition: color 500ms ease-out;
+	-moz-transition: color 500ms ease-out;
+	-o-transition: color 500ms ease-out;
+	-ms-transition: color 500ms ease-out;
+	transition: color 500ms ease-out;
+}
 article {
 	background: #FFFFFF;
 	font-size: 48px;
